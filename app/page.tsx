@@ -24,7 +24,7 @@ export default function SingleSpeedStore() {
             </div>
 
             <button className="bg-white text-black px-8 py-4 rounded-2xl font-semibold hover:scale-105 transition-transform">
-              Order by email
+              Order now
             </button>
           </div>
 
@@ -84,8 +84,18 @@ export default function SingleSpeedStore() {
                   />
                 </div>
 
+                <div className="space-y-4 mb-6">
+                  <input placeholder="Full name" className="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-4 py-3" />
+                  <input placeholder="Email" className="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-4 py-3" />
+                  <input placeholder="Phone (optional)" className="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-4 py-3" />
+                  <input placeholder="Address" className="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-4 py-3" />
+                  <input placeholder="Postal code" className="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-4 py-3" />
+                  <input placeholder="City" className="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-4 py-3" />
+                  <input placeholder="Country" className="w-full bg-zinc-950 border border-zinc-700 rounded-xl px-4 py-3" />
+                </div>
+
                 <button className="w-full bg-white text-black py-4 rounded-2xl font-semibold hover:scale-[1.02] transition-transform">
-                  Send order to arthurbrand@live.fr
+                  Request your kit
                 </button>
               </div>
             </div>
